@@ -92,7 +92,7 @@ function imputName(count){
     } else {
         // スコアと入力した名前を保存
         saveScore(name, count);
-        $("#list-page p").html(name + "さんのスコアは" + String(count) + "連打でした"); 
+        $("#list-page p").html(name + "さんのスコアは" + String(count) + "連打でした。お疲れ様でした！"); 
     }
     // ボタンの有効化
     document.gameForm.start.disabled = false;
